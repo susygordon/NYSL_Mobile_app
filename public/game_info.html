@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <!-- Nombre de la página que figura en la pestaña del browser-->
+  <title>Game Inf</title>
+  <!--El siguiente elemento es para que vincular al html con el css correspondiente que le dará el estilo-->
+  <link rel="stylesheet" type="text/css" href="nysl_5.css">
+</head>
+
+<body>
+
+  <header class=contenedor>
+    <h1>Northside Youth Soccer League</h1>
+    <img id=logo src="nysl_logo1.png" alt=logo>
+  </header>
+  
+  <nav>
+    <!-- Menú de navegación que también estará en las otras páginas, para permitir al usuario moverse entre ellas-->
+    <a href="index.html">Home</a>
+	<a href="about.html">About</a>
+	<a href="contact.html">Contact</a>
+    <a href="rules.html">Rules</a>
+    <a>Game_inf</a>
+    <a href="Registration.html">Reg_form</a>
+  </nav>
+  
+  <!--Section que contiene H2 y H3 para los títulos y luego viene seguido de un "p" antes de comenzar con la tabla-->
+  
+  <section>
+
+    <h2>NYSL Game Information</h2>
+    <h3>Fall Schedule</h3>
+    <p class=texto1>* All games take place on Saturday.</p>
+     
+  <!--Se crean dos tablas, una para Sept y otra para Oct, con su encabezado y cuerpo-->
+  <table class="tabla1">
+    <thead class=head1> 
+    <tr>
+      <th>SEPTEMBER</th>
+      <th>Teams</th>
+      <th>Location</th>
+      <th>Times</th>
+    </tr>
+    </thead>
+  
+    <tbody class=body1> 
+    <tr>
+      <td rowspan="2"> 9/01</td>
+      <td>U1 and U4</td>
+      <td>AJ Katzenmaier</td>
+      <td>9:30 a.m.</td>
+    </tr>
+      
+    <tr>
+      <td>U3 and U2</td>
+      <td>Greenbay</td>
+      <td>1:00 p.m.</td>
+    </tr>
+  
+    <tr>
+      <td rowspan="2"> 9/08</td>
+      <td>U5 and U6</td>
+      <td>Howard A Yeager</td>
+      <td>9:30 a.m.</td>
+    </tr>
+      
+      <tr>
+      <td>U6 and U1</td>
+      <td>Marjorie P Hart</td>
+      <td>1:00 p.m.</td>
+    </tr>
+      
+     <tr>
+      <td rowspan="2"> 9/15</td>
+      <td>U2 and U4 </td>
+      <td>North</td>
+      <td>9:30 a.m.</td>
+    </tr>
+      
+      <tr>
+      <td>U3 and U5</td>
+      <td>AJ Katzenmaier</td>
+      <td>1:00 p.m.</td>
+    </tr>
+      
+     <tr>
+      <td rowspan="2">9/22</td>
+      <td>U1 and U3 </td>
+      <td>South</td>
+      <td>9:30 a.m.</td>
+    </tr>
+      
+      <tr>
+      <td>U2 and U6</td>
+      <td>Howard A Yeager</td>
+      <td>1:00 p.m.</td>
+    </tr>
+      
+     <tr>
+      <td> 9/29</td>
+      <td>U4 and U5</td>
+      <td>Greenbay</td>
+      <td>9:30 a.m.</td>
+    </tr>     
+          
+    </tbody>
+    
+  </table>
+    
+  
+  <table class="tabla1">
+    <thead class=head1> 
+    <tr>
+      <th>OCTOBER</th>
+      <th>Teams</th>
+      <th>Location</th>
+      <th>Times</th>
+    </tr>
+    </thead>
+  
+    <tbody class=body1> 
+    <tr>
+      <td rowspan="2">10/06</td>
+      <td>U2 and U5</td>
+      <td>Marjorie P Hart</td>
+      <td>9:30 a.m.</td>
+    </tr>
+      
+    <tr>
+      <td>U1 and U6</td>
+      <td>South</td>
+      <td>1:00 p.m.</td>
+    </tr>
+  
+    <tr>
+      <td rowspan="2">10/13</td>
+      <td>U3 and U4</td>
+      <td>Howard A Yeager</td>
+      <td>9:30 a.m.</td>
+    </tr>
+      
+      <tr>
+      <td>U5 and U1</td>
+      <td>Greenbay</td>
+      <td>1:00 p.m.</td>
+    </tr>
+      
+     <tr>
+      <td rowspan="2">10/20</td>
+      <td>U6 and U3</td>
+      <td>North</td>
+      <td>9:30 a.m.</td>
+    </tr>
+      
+      <tr>
+      <td>U2 and U4</td>
+      <td>Marjorie P Hart</td>
+      <td>1:00 p.m.</td>
+    </tr>
+      
+     <tr>
+      <td rowspan="2">10/27</td>
+      <td>U3 and U1</td>
+      <td>AJ Katzenmaier</td>
+      <td>9:30 a.m.</td>
+    </tr>
+      
+      <tr>
+      <td>U5 and U6</td>
+      <td>Howard A Yeager</td>
+      <td>1:00 p.m.</td>
+    </tr>
+               
+    </tbody>
+    
+  </table>
+    
+  <!--Se utiliza un Div para agrupar h4 y p los textos de las direcciones + iframe para insertar Google maps-->  
+  
+    <div>
+      <h4 class="tabla1">Game Locations:</h4>
+      
+      <p>AJ Katzenmaier Elementary: 24 W. Walton St., Chicago, IL  60610 </p>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2969.6542461157333!2d-87.6312444494377!3d41.90029237911835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd34e07f6bac3%3A0x68a82e5d59952c86!2s24+W+Walton+St%2C+Chicago%2C+IL+60610%2C+EE.+UU.!5e0!3m2!1ses!2sar!4v1556842750556!5m2!1ses!2sar" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+          
+      <p>Greenbay Elementary: 1734 N. Orleans St., Chicago, IL  60614</p>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2969.025884373603!2d-87.64003334943718!3d41.91380227911735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd34073f306a3%3A0x9e1726bbf8f23f0e!2s1734+N+Orleans+St%2C+Chicago%2C+IL+60614%2C+EE.+UU.!5e0!3m2!1ses!2sar!4v1556843243400!5m2!1ses!2sar" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+      
+      <p>Howard A Yeager Elementary: 2245 N. Southport Ave., Chicago, IL  60614</p>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2968.5856830903626!2d-87.66511994943679!3d41.92326457911668!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd2e37f9b8d2d%3A0x62ad8b907dd755d6!2s2245+N+Southport+Ave%2C+Chicago%2C+IL+60614%2C+EE.+UU.!5e0!3m2!1ses!2sar!4v1556843275851!5m2!1ses!2sar" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+      
+      <p>Marjorie P Hart Elementary: 2625 N. Orchard St., Chicago, IL  60614</p>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2968.291914663175!2d-87.64809164943652!3d41.929578279116214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd30f2630e551%3A0x3e719e44a5cef714!2s2625+N+Orchard+St%2C+Chicago%2C+IL+60614%2C+EE.+UU.!5e0!3m2!1ses!2sar!4v1556843311534!5m2!1ses!2sar" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+      
+      <p>North Elementary: 1409 N. Ogden Ave., Chicago, IL 60610</p>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2969.337799853952!2d-87.64838234943741!3d41.907096479117975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd33af0e6ccc3%3A0x26c81c1d557667da!2s1409+N+Ogden+Ave%2C+Chicago%2C+IL+60610%2C+EE.+UU.!5e0!3m2!1ses!2sar!4v1556843349176!5m2!1ses!2sar" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    
+      <p>South Elementary: 2101 N. Fremont St., Chicago, IL 60614</p>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2968.7479505298143!2d-87.65356074943696!3d41.91977677911687!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd3196fb41dc7%3A0x970be7f7d6336df5!2s2101+N+Fremont+St%2C+Chicago%2C+IL+60614%2C+EE.+UU.!5e0!3m2!1ses!2sar!4v1556843380642!5m2!1ses!2sar" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    
+    </div>
+    
+    <!--Se crean las tablas necesarias para la información adicional--> 
+    
+    <table>
+      <tr>
+        <td class="texto2">Facility Type:</td>
+        <td>Outdoor</td>
+      </tr>
+    </table>
+    
+    <table>
+      <tr>
+        <td class="texto2">Additional Information:</td>
+        <td>If deemed necessary by NYSL, games may be shortened or cancelled due to extreme weather conditions.</td>
+      </tr>
+    </table>
+    
+    <table>
+      <tr>
+        <td class="texto2">Please direct all questions to:</td>
+        <td>Michael Randall, League Coordinator</td>
+      </tr>
+    </table>
+     
+    <table>
+      <tr>
+        <td class="texto2">Phone:</td> 
+        <td>(630) 690-8132</td>
+        <td class=texto2>Email:</td>
+        <td class="email">michael.randall@chisoccer.org</td>
+    <!--Quiero colocar el correo como un link pero no me lo permite. Coloqué como <a> y href pero el validator dice que es incorrecto --> 
+      </tr>
+    </table>
+         
+  </section>
+  
+  </body>
+  
+  </html>
